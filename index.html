@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Transport Company</title>
+<style>
+  body { font-family: Arial, sans-serif; background-color: #f0e68c; }
+  .header { background-color: #6495ed; padding: 20px; text-align: center; }
+  .header a { color: white; padding: 14px 20px; text-decoration: none; margin: 0 10px; }
+  .content { padding: 20px; }
+  .footer { background-color: #6495ed; padding: 10px; text-align: center; color: white; }
+  form { background-color: #ffffff; padding: 20px; margin-top: 20px; }
+  .btn { background-color: #4CAF50; color: white; padding: 10px; border: none; cursor: pointer; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <button class="btn">Contact</button>
+</div>
+
+<div class="content">
+  <h2>Our Transportation Services</h2>
+  <img src="bus.jpg" alt="Bus Service" style="width:100%;max-width:300px;">
+  <p>Explore our comfortable bus services for long routes. Starting from $50 for every 200 miles.</p>
+  <img src="train.jpg" alt="Train Service" style="width:100%;max-width:300px;">
+  <p>Fast and reliable train services available, starting at $30 for every 100 miles.</p>
+</div>
+
+<div class="footer">
+  <p>Copyright &copy; 2023 Transport Company</p>
+</div>
+
+<div>
+  <h3>Inquire with us</h3>
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="service">Service:</label><br>
+    <select id="service" name="service">
+      <option value="bus">Bus Service</option>
+      <option value="train">Train Service</option>
+    </select><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
